@@ -25,6 +25,17 @@
 
 
 
+@font-face {
+    font-family: 'fira_codebold';
+    src: url('firacode-bold-webfont.woff2') format('woff2'),
+         url('firacode-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
 
 @font-face {
     font-family: 'prospectus_pro_xlregular';
@@ -74,11 +85,20 @@
 
 
 
-@font-face {
-    font-family: 'fira_codebold';
-    src: url('firacode-bold-webfont.woff2') format('woff2'),
-         url('firacode-bold-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+
+
+
+h1 {
+	font-family: ‘prospectus_pro_xlregular’, serif;
+
+}
+
+h2 {
+	font-family: ‘fira_coderegular’, monospace;
+
+}
+
+p {
+	font-family: ‘prospectus_pro_sregular’, serif
 
 }

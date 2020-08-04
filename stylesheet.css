@@ -86,19 +86,10 @@
 
 
 
+p { font-family: 'prospectus_pro_sregular', serif; }
+
+h1 { font-family: 'prospectus_pro_xlregular', serif; }
+
+h2 { font-family: 'fira_codelight', monospace; }
 
 
-h1 {
-	font-family: "prospectus_pro_xlregular", serif;
-
-}
-
-h2 {
-	font-family: "fira_codelight", monospace;
-
-}
-
-p {
-	font-family: "prospectus_pro_sregular", serif
-
-}

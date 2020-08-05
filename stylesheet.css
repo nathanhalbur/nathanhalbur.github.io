@@ -43,7 +43,6 @@
          url('prospectusxlreg-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-    font-size: 600%;
 
 }
 
@@ -89,7 +88,7 @@
 
 p { font-family: 'prospectus_pro_sregular', serif; }
 
-h1 { font-family: 'prospectus_pro_xlregular', serif; }
+h1 { font-family: 'prospectus_pro_xlregular', serif; font-size: 600%; }
 
 h2 { font-family: 'fira_codelight', monospace; }
 

@@ -62,11 +62,11 @@
 
 
 @font-face {
-    font-family: 'prospectus_pro_sitalic';
+    font-family: 'prospectus_pro_s';
     src: url('prospectussitalic-webfont.woff2') format('woff2'),
          url('prospectussitalic-webfont.woff') format('woff');
     font-weight: normal;
-    font-style: normal;
+    font-style: italic;
 
 }
 
@@ -74,7 +74,7 @@
 
 
 @font-face {
-    font-family: 'prospectus_pro_sregular';
+    font-family: 'prospectus_pro_s';
     src: url('prospectussreg-webfont.woff2') format('woff2'),
          url('prospectussreg-webfont.woff') format('woff');
     font-weight: normal;
@@ -86,7 +86,7 @@
 
 
 
-p { font-family: 'prospectus_pro_sregular', serif; color: #f3eddf }
+p { font-family: 'prospectus_pro_s', serif; font-weight:400; color: #f3eddf }
 
 h1 { font-family: 'prospectus_pro_xlregular', serif; color: #f3eddf }
 

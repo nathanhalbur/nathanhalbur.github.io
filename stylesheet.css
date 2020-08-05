@@ -86,12 +86,12 @@
 
 
 
-p { font-family: 'prospectus_pro_s', serif; color: #f3eddf }
+p { font-family: 'prospectus_pro_s', serif; }
 
-h1 { font-family: 'prospectus_pro_xlregular', serif; color: #f3eddf }
+h1 { font-family: 'prospectus_pro_xlregular', serif; }
 
-h2 { font-family: 'fira_code', monospace; font-weight: 300; color: #f3eddf }
+h2 { font-family: 'fira_code', monospace; font-weight: 300; }
 
-h3 { font-family: 'prospectus_pro_sitalic'; color: #f3eddf }
+h3 { font-family: 'prospectus_pro_sitalic'; }
 
-h4 { font-family: 'fira_code', monospace; font-weight: 300; color: #f3eddf }
+h4 { font-family: 'fira_code', monospace; font-weight: 300; }

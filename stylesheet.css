@@ -3,10 +3,10 @@
 
 
 @font-face {
-    font-family: 'fira_codelight';
+    font-family: 'fira_code';
     src: url('firacode-light-webfont.woff2') format('woff2'),
          url('firacode-light-webfont.woff') format('woff');
-    font-weight: normal;
+    font-weight: 100;
     font-style: normal;
 
 }
@@ -15,10 +15,10 @@
 
 
 @font-face {
-    font-family: 'fira_coderegular';
+    font-family: 'fira_code';
     src: url('firacode-regular-webfont.woff2') format('woff2'),
          url('firacode-regular-webfont.woff') format('woff');
-    font-weight: normal;
+    font-weight: 300;
     font-style: normal;
 
 }
@@ -26,10 +26,10 @@
 
 
 @font-face {
-    font-family: 'fira_codebold';
+    font-family: 'fira_code';
     src: url('firacode-bold-webfont.woff2') format('woff2'),
          url('firacode-bold-webfont.woff') format('woff');
-    font-weight: normal;
+    font-weight: 500;
     font-style: normal;
 
 }
@@ -90,6 +90,6 @@ p { font-family: 'prospectus_pro_sregular', serif; color: #f3eddf}
 
 h1 { font-family: 'prospectus_pro_xlregular', serif; color: #f3eddf}
 
-h2 { font-family: 'fira_codelight', monospace; color: #f3eddf}
+h2 { font-family: 'fira_code', monospace; font-weight: 100; color: #f3eddf}
 
 

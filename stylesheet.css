@@ -29,7 +29,7 @@
     font-family: 'fira_code';
     src: url('firacode-bold-webfont.woff2') format('woff2'),
          url('firacode-bold-webfont.woff') format('woff');
-    font-weight: 500;
+    font-weight: bold;
     font-style: normal;
 
 }

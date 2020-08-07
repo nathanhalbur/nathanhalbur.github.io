@@ -4,8 +4,8 @@
 
 @font-face {
     font-family: 'fira_code';
-    src: url('firacode-light-webfont.woff2') format('woff2'),
-         url('firacode-light-webfont.woff') format('woff');
+    src: url('fonts/firacode-light-webfont.woff2') format('woff2'),
+         url('fonts/firacode-light-webfont.woff') format('woff');
     font-weight: 300;
     font-style: normal;
 
@@ -16,8 +16,8 @@
 
 @font-face {
     font-family: 'fira_code';
-    src: url('firacode-regular-webfont.woff2') format('woff2'),
-         url('firacode-regular-webfont.woff') format('woff');
+    src: url('fonts/firacode-regular-webfont.woff2') format('woff2'),
+         url('fonts/firacode-regular-webfont.woff') format('woff');
     font-weight: 400;
     font-style: normal;
 
@@ -27,8 +27,8 @@
 
 @font-face {
     font-family: 'fira_code';
-    src: url('firacode-bold-webfont.woff2') format('woff2'),
-         url('firacode-bold-webfont.woff') format('woff');
+    src: url('fonts/firacode-bold-webfont.woff2') format('woff2'),
+         url('fonts/firacode-bold-webfont.woff') format('woff');
     font-weight: 700;
     font-style: normal;
 
@@ -39,8 +39,8 @@
 
 @font-face {
     font-family: 'prospectus_pro_xlregular';
-    src: url('prospectusxlreg-webfont.woff2') format('woff2'),
-         url('prospectusxlreg-webfont.woff') format('woff');
+    src: url('fonts/prospectusxlreg-webfont.woff2') format('woff2'),
+         url('fonts/prospectusxlreg-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -51,8 +51,8 @@
 
 @font-face {
     font-family: 'prospectus_pro_lregular';
-    src: url('prospectuslreg-webfont.woff2') format('woff2'),
-         url('prospectuslreg-webfont.woff') format('woff');
+    src: url('fonts/prospectuslreg-webfont.woff2') format('woff2'),
+         url('fonts/prospectuslreg-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -63,8 +63,8 @@
 
 @font-face {
     font-family: 'prospectus_pro_s';
-    src: url('prospectussitalic-webfont.woff2') format('woff2'),
-         url('prospectussitalic-webfont.woff') format('woff');
+    src: url('fonts/prospectussitalic-webfont.woff2') format('woff2'),
+         url('fonts/prospectussitalic-webfont.woff') format('woff');
     font-weight: normal;
     font-style: italic;
 
@@ -75,8 +75,8 @@
 
 @font-face {
     font-family: 'prospectus_pro_s';
-    src: url('prospectussreg-webfont.woff2') format('woff2'),
-         url('prospectussreg-webfont.woff') format('woff');
+    src: url('fonts/prospectussreg-webfont.woff2') format('woff2'),
+         url('fonts/prospectussreg-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 

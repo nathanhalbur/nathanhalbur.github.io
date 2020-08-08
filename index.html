@@ -4,29 +4,9 @@
 
 <html>
 
-<style>
-    #myBtn {
-      display: none;
-      position: fixed;
-      bottom: 20px;
-      right: 30px;
-      z-index: 99;
-      font-size: 18px;
-      font-family: 'fira_code';
-      font-weight: 400;
-      border: none;
-      outline: none;
-      background-color: #FE5000;
-      color: white;
-      cursor: pointer;
-      padding: 15px;
-      border-radius: 4px;
-    }
-
-    #myBtn:hover {
-      background-color: #555;
-    }
-</style>
+<a class="back-to-top js-back-to-top" href="#" data-offset="100" data-duration="300">
+  <svg class="icon" viewBox="0 0 16 16"><title>Go to top of page</title><g stroke-width="1" stroke="currentColor"><polyline fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="15.5,11.5 8,4 0.5,11.5 "></polyline></g></svg>
+</a>
 
 <body style=background-color:#2e3b2a;>
 
@@ -287,28 +267,54 @@
     
     </section>
     
+    
     <script>
-        //Get the button
-        var mybutton = document.getElementById("myBtn");
-        
-        // When the user scrolls down 20px from the top of the document, show the button
-        window.onscroll = function() {scrollFunction()};
-        
-        function scrollFunction() {
-          if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-            mybutton.style.display = "block";
-          } else {
-            mybutton.style.display = "none";
-          }
-        }
-        
-        // When the user clicks on the button, scroll to the top of the document
-        function topFunction() {
-          document.body.scrollTop = 0;
-          document.documentElement.scrollTop = 0;
-        }
-    </script>
+// File#: _1_back-to-top
+// Usage: codyhouse.co/license
+(function() {
+	var backTop = document.getElementsByClassName('js-back-to-top')[0];
+	if( backTop ) {
+		var dataElement = backTop.getAttribute('data-element');
+		var scrollElement = dataElement ? document.querySelector(dataElement) : window;
+		var scrollDuration = parseInt(backTop.getAttribute('data-duration')) || 300, //scroll to top duration
+			scrollOffset = parseInt(backTop.getAttribute('data-offset')) || 0, //show back-to-top if scrolling > scrollOffset
+			scrolling = false;
+		
+		//detect click on back-to-top link
+		backTop.addEventListener('click', function(event) {
+			event.preventDefault();
+			if(!window.requestAnimationFrame) {
+				scrollElement.scrollTo(0, 0);
+			} else {
+				dataElement ? Util.scrollTo(0, scrollDuration, false, scrollElement) : Util.scrollTo(0, scrollDuration);
+			} 
+			//move the focus to the #top-element - don't break keyboard navigation
+			Util.moveFocus(document.getElementById(backTop.getAttribute('href').replace('#', '')));
+		});
+		
+		//listen to the window scroll and update back-to-top visibility
+		checkBackToTop();
+		if (scrollOffset > 0) {
+			scrollElement.addEventListener("scroll", function(event) {
+				if( !scrolling ) {
+					scrolling = true;
+					(!window.requestAnimationFrame) ? setTimeout(function(){checkBackToTop();}, 250) : window.requestAnimationFrame(checkBackToTop);
+				}
+			});
+		}
 
+		function checkBackToTop() {
+			var windowTop = scrollElement.scrollTop || document.documentElement.scrollTop;
+			if(!dataElement) windowTop = window.scrollY || document.documentElement.scrollTop;
+			Util.toggleClass(backTop, 'back-to-top--is-visible', windowTop >= scrollOffset);
+			scrolling = false;
+		}
+	}
+}());
+
+            </script>
+
+        
 </body>
 
 </html>

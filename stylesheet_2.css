@@ -36,6 +36,7 @@
 
 }
 
+
 section {
   padding-top:50px;
   padding-bottom:120px;
@@ -44,6 +45,7 @@ section {
   margin-left:-10px;
   margin-right:-10px;
 }
+
 
 p {
   font-family: 'DM Mono', monospace;
@@ -71,15 +73,6 @@ h2 {
   font-weight: normal;
   font-style: normal;
   font-size: 32px;
-  margin-left:auto;
-  margin-right:auto;
-  padding-left:8px;
-  padding-right:8px;
-  max-width:650px;
-}
-
-h4 {
-  font-family: 'DM Mono', monospace;
   margin-left:auto;
   margin-right:auto;
   padding-left:8px;

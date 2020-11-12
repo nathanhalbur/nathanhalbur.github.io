@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:ital@0;1&display=swap');
+
+@font-face {
+    font-family: 'prospectus_pro_m';
+    src: url('prospectusmbld-webfont.woff2') format('woff2'),
+         url('prospectusmbld-webfont.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'prospectus_pro_m';
+    src: url('prospectusmbldital-webfont.woff2') format('woff2'),
+         url('prospectusmbldital-webfont.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+
+}
+
+@font-face {
+    font-family: 'prospectus_pro_m';
+    src: url('prospectusmlt-webfont.woff2') format('woff2'),
+         url('prospectusmlt-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'prospectus_pro_m';
+    src: url('prospectusmltital-webfont.woff2') format('woff2'),
+         url('prospectusmltital-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+
+}
+
+
+section {
+  padding-top:50px;
+  padding-bottom:50px;
+  margin-top:-10px;
+  margin-bottom:-20px;
+  margin-left:-10px;
+  margin-right:-10px;
+}
+
+p {
+  font-family: 'DM Mono', monospace;
+  margin-left:auto;
+  margin-right:auto;
+  padding-left:8px;
+  padding-right:8px;
+  max-width:650px;
+}
+
+h1 {
+  font-family: 'prospectus_pro_m', serif;
+  font-weight: normal;
+  font-style: normal;
+  margin-left:auto;
+  margin-right:auto;
+  padding-left:8px;
+  padding-right:8px;
+  max-width:650px;
+}
+
+h2 {
+  font-family: 'prospectus_pro_m', serif;
+  font-weight: normal;
+  font-style: normal;
+  margin-left:auto;
+  margin-right:auto;
+  padding-left:8px;
+  padding-right:8px;
+  max-width:650px;
+}
+
+h5 {
+  font-family: 'DM Mono', monospace;
+  margin-left:auto;
+  margin-right:auto;
+  padding-left:8px;
+  padding-right:8px;
+  max-width:650px;
+}

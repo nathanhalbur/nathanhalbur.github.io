@@ -94,3 +94,20 @@ h2 {
   padding-right:8px;
   max-width:650px;
 }
+
+/* Float to the right on screens that are equal to or less than 768px wide */
+@media (max-width: 649px) {
+  img {
+    float: none;
+    margin: auto;
+    display: table;
+    padding-bottom: 40px;
+  }
+}
+
+/* Float to the right on screens that are equal to or greater than 769px wide */
+@media (min-width: 650px) {
+  img {
+    float: left;
+  }
+}

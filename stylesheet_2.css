@@ -95,7 +95,7 @@ h2 {
   max-width:650px;
 }
 
-/* Float to the right on screens that are equal to or less than 768px wide */
+/* Float not (positioned above) on screens that are equal to or less than 649px wide */
 @media (max-width: 649px) {
   img {
     float: none;
@@ -105,7 +105,7 @@ h2 {
   }
 }
 
-/* Float to the right on screens that are equal to or greater than 769px wide */
+/* Float left on screens that are equal to or greater than 650px wide */
 @media (min-width: 650px) {
   img {
     float: left;

@@ -12,7 +12,17 @@ biography &emsp; media &emsp; contact
 
 <br>
 
-Insert a short bio here. Don't bother with a long one at all.
+I have appeared as a baritone soloist in Handel’s *Messiah* with Spooky Goose Opera, Mendelssohn’s *Die erste Walpurgisnacht* with the Metropolitan Chorale, Handel’s *Jephtha* with the Seraphic Fire Professional Choral Institute, Fauré’s Requiem with the Wellesley College Choir, and Mozart’s Requiem and Coronation Mass with Camerata California.
+
+I’ve performed and recorded with ensembles including Emmanuel Music, Church of the Advent, Cantata Singers, Ensemble Altera, Vox Futura, and the Pacific Chorale.
+
+I am Artistic Director of Causeway Chamber Soloists along with soprano Angela Yam.
+
+I’ve created arrangements for vocal jazz group GGN, the Davis Chamber Choir, and the Lounge Lizards.
+
+I’ve composed original works such as *Two Peace Songs* for chorus & orchestra, *The Equivalence Principle* for a cappella chorus, and *Why, what is Tybalt?* for soprano & piano (featured in songSLAM NYC 2020).
+
+I am half of neo-soul duo Dreamglow. Our most recent visual album juxtaposes art song, lo-fi beats, and COVID-19 news.
 
 # Media
 

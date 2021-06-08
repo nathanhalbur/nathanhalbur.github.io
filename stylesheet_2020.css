@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:ital@0;1&display=swap');
+
+@font-face {
+    font-family: 'prospectus_pro_m';
+    src: url('/fonts/prospectusmbld-webfont.woff2') format('woff2'),
+         url('/fonts/prospectusmbld-webfont.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'prospectus_pro_m';
+    src: url('/fonts/prospectusmbldital-webfont.woff2') format('woff2'),
+         url('/fonts/prospectusmbldital-webfont.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+
+}
+
+@font-face {
+    font-family: 'prospectus_pro_m';
+    src: url('/fonts/prospectusmlt-webfont.woff2') format('woff2'),
+         url('/fonts/prospectusmlt-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'prospectus_pro_m';
+    src: url('/fonts/prospectusmltital-webfont.woff2') format('woff2'),
+         url('/fonts/prospectusmltital-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+
+}
+
+
+section {
+  padding-top:50px;
+  padding-bottom:120px;
+  margin-top:-10px;
+  margin-bottom:-20px;
+  margin-left:-10px;
+  margin-right:-10px;
+}
+
+div {
+  padding-top:20px;
+  padding-bottom:120px;
+  margin-top:-10px;
+  margin-bottom:-20px;
+  margin-left:-10px;
+  margin-right:-10px;
+}
+
+
+
+a{
+  font-family: 'DM Mono', monospace;
+  color:#98e8ff;
+}
+
+p {
+  font-family: 'DM Mono', monospace;
+  margin-left:auto;
+  margin-right:auto;
+  padding-left:8px;
+  padding-right:8px;
+  max-width:650px;
+}
+
+h1 {
+  font-family: 'prospectus_pro_m', serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 64px;
+  margin-left:auto;
+  margin-right:auto;
+  padding-left:8px;
+  padding-right:8px;
+  max-width:650px;
+}
+
+h2 {
+  font-family: 'prospectus_pro_m', serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 32px;
+  margin-left:auto;
+  margin-right:auto;
+  padding-left:8px;
+  padding-right:8px;
+  max-width:650px;
+}
+
+/* Float not (positioned above) on screens that are equal to or less than 649px wide */
+@media (max-width: 649px) {
+  img {
+    float: none;
+    margin: auto;
+    display: table;
+    padding-bottom: 40px;
+  }
+}
+
+/* Float left on screens that are equal to or greater than 650px wide */
+@media (min-width: 650px) {
+  img {
+    float: left;
+  }
+}

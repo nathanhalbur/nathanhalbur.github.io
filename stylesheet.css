@@ -4,8 +4,8 @@
 
 @font-face {
     font-family: 'prospectus_pro_s';
-    src: url('/fonts/prospectussthn-webfont.woff2') format('woff2'),
-         url('/fonts/prospectussthn-webfont.woff') format('woff');
+    src: url('/fonts/prospectusslt-webfont.woff2') format('woff2'),
+         url('/fonts/prospectusslt-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -16,8 +16,8 @@
 
 @font-face {
     font-family: 'prospectus_pro_s';
-    src: url('/fonts/prospectussthnital-webfont.woff2') format('woff2'),
-         url('/fonts/prospectussthnital-webfont.woff') format('woff');
+    src: url('/fonts/prospectussltital-webfont.woff2') format('woff2'),
+         url('/fonts/prospectussltital-webfont.woff') format('woff');
     font-weight: normal;
     font-style: italic;
 

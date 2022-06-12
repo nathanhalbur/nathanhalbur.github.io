@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'fraunces_144ptlight';
-    src: url('fraunces144pt-light-webfont.woff2') format('woff2'),
-         url('fraunces144pt-light-webfont.woff') format('woff');
+    src: url('fonts/fraunces144pt-light-webfont.woff2') format('woff2'),
+         url('fonts/fraunces144pt-light-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -12,8 +12,8 @@
 
 @font-face {
     font-family: 'hk_grotesk';
-    src: url('hkgrotesk-bold-webfont.woff2') format('woff2'),
-         url('hkgrotesk-bold-webfont.woff') format('woff');
+    src: url('fonts/hkgrotesk-bold-webfont.woff2') format('woff2'),
+         url('fonts/hkgrotesk-bold-webfont.woff') format('woff');
     font-weight: bold;
     font-style: normal;
 
@@ -24,8 +24,8 @@
 
 @font-face {
     font-family: 'hk_grotesk';
-    src: url('hkgrotesk-bolditalic-webfont.woff2') format('woff2'),
-         url('hkgrotesk-bolditalic-webfont.woff') format('woff');
+    src: url('fonts/hkgrotesk-bolditalic-webfont.woff2') format('woff2'),
+         url('fonts/hkgrotesk-bolditalic-webfont.woff') format('woff');
     font-weight: bold;
     font-style: italic;
 
@@ -36,8 +36,8 @@
 
 @font-face {
     font-family: 'hk_grotesk';
-    src: url('hkgrotesk-italic-webfont.woff2') format('woff2'),
-         url('hkgrotesk-italic-webfont.woff') format('woff');
+    src: url('fonts/hkgrotesk-italic-webfont.woff2') format('woff2'),
+         url('fonts/hkgrotesk-italic-webfont.woff') format('woff');
     font-weight: normal;
     font-style: italic;
 
@@ -48,8 +48,8 @@
 
 @font-face {
     font-family: 'hk_grotesk';
-    src: url('hkgrotesk-regular-webfont.woff2') format('woff2'),
-         url('hkgrotesk-regular-webfont.woff') format('woff');
+    src: url('fonts/hkgrotesk-regular-webfont.woff2') format('woff2'),
+         url('fonts/hkgrotesk-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -83,7 +83,7 @@ a {
 
 p {
   font-family: 'hk_grotesk', sans-serif;
-  font-size: 21px;
+  font-size: 18px;
   line-height: 1.4;
   margin-left:auto;
   margin-right:auto;
@@ -97,7 +97,7 @@ h1 {
   font-family: 'fraunces_144ptlight', serif;
   font-weight: normal;
   font-style: normal;
-  font-size: 63px;
+  font-size: 36px;
   margin-left:auto;
   margin-right:auto;
   padding-left:8px;

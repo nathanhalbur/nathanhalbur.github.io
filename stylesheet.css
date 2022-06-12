@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'fraunces_144ptlight';
-    src: url('fonts/fraunces144pt-light-webfont.woff2') format('woff2'),
-         url('fonts/fraunces144pt-light-webfont.woff') format('woff');
+    src: url('/fonts/fraunces144pt-light-webfont.woff2') format('woff2'),
+         url('/fonts/fraunces144pt-light-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -12,8 +12,8 @@
 
 @font-face {
     font-family: 'hk_grotesk';
-    src: url('fonts/hkgrotesk-bold-webfont.woff2') format('woff2'),
-         url('fonts/hkgrotesk-bold-webfont.woff') format('woff');
+    src: url('/fonts/hkgrotesk-bold-webfont.woff2') format('woff2'),
+         url('/fonts/hkgrotesk-bold-webfont.woff') format('woff');
     font-weight: bold;
     font-style: normal;
 
@@ -24,8 +24,8 @@
 
 @font-face {
     font-family: 'hk_grotesk';
-    src: url('fonts/hkgrotesk-bolditalic-webfont.woff2') format('woff2'),
-         url('fonts/hkgrotesk-bolditalic-webfont.woff') format('woff');
+    src: url('/fonts/hkgrotesk-bolditalic-webfont.woff2') format('woff2'),
+         url('/fonts/hkgrotesk-bolditalic-webfont.woff') format('woff');
     font-weight: bold;
     font-style: italic;
 
@@ -36,8 +36,8 @@
 
 @font-face {
     font-family: 'hk_grotesk';
-    src: url('fonts/hkgrotesk-italic-webfont.woff2') format('woff2'),
-         url('fonts/hkgrotesk-italic-webfont.woff') format('woff');
+    src: url('/fonts/hkgrotesk-italic-webfont.woff2') format('woff2'),
+         url('/fonts/hkgrotesk-italic-webfont.woff') format('woff');
     font-weight: normal;
     font-style: italic;
 
@@ -48,8 +48,8 @@
 
 @font-face {
     font-family: 'hk_grotesk';
-    src: url('fonts/hkgrotesk-regular-webfont.woff2') format('woff2'),
-         url('fonts/hkgrotesk-regular-webfont.woff') format('woff');
+    src: url('/fonts/hkgrotesk-regular-webfont.woff2') format('woff2'),
+         url('/fonts/hkgrotesk-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 

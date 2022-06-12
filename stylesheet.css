@@ -83,7 +83,7 @@ a {
 
 p {
   font-family: 'hk_grotesk', sans-serif;
-  font-size: 21px;
+  font-size: 20px;
   line-height: 1.6;
   margin-left:auto;
   margin-right:auto;
@@ -97,7 +97,7 @@ h1 {
   font-family: 'fraunces_144ptlight', serif;
   font-weight: normal;
   font-style: normal;
-  font-size: 56px;
+  font-size: 50px;
   margin-left:auto;
   margin-right:auto;
   padding-left:8px;
@@ -107,7 +107,7 @@ h1 {
 }
 
 
-/* Float not (positioned above) on screens that are equal to or less than 649px wide */
+/* Float not (positioned above) on screens that are equal to or less than 749px wide */
 @media (max-width: 749px) {
   img {
     float: none;
@@ -117,7 +117,7 @@ h1 {
   }
 }
 
-/* Float left on screens that are equal to or greater than 650px wide */
+/* Float left on screens that are equal to or greater than 750px wide */
 @media (min-width: 750px) {
   img {
     float: left;

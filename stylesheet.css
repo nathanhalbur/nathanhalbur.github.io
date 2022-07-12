@@ -40,48 +40,48 @@
 
 @font-face {
   font-family: 'Plantin_MT_Pro';
-  src: url('PlantinMTPro-Italic.woff2') format('woff2'),
-    url('PlantinMTPro-Italic.woff') format('woff');
+  src: url('/fonts/PlantinMTPro-Italic.woff2') format('woff2'),
+    url('/fonts/PlantinMTPro-Italic.woff') format('woff');
   font-weight: normal;
   font-style: italic;
 }
 
 @font-face {
   font-family: 'Plantin_MT_Pro';
-  src: url('PlantinMTPro-Regular.woff2') format('woff2'),
-    url('PlantinMTPro-Regular.woff') format('woff');
+  src: url('/fonts/PlantinMTPro-Regular.woff2') format('woff2'),
+    url('/fonts/PlantinMTPro-Regular.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Plantin_MT_Pro';
-  src: url('PlantinMTPro-Bold.woff2') format('woff2'),
-    url('PlantinMTPro-Bold.woff') format('woff');
+  src: url('/fonts/PlantinMTPro-Bold.woff2') format('woff2'),
+    url('/fonts/PlantinMTPro-Bold.woff') format('woff');
   font-weight: bold;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Plantin_MT_Pro';
-  src: url('PlantinMTPro-BoldItalic.woff2') format('woff2'),
-    url('PlantinMTPro-BoldItalic.woff') format('woff');
+  src: url('/fonts/PlantinMTPro-BoldItalic.woff2') format('woff2'),
+    url('/fonts/PlantinMTPro-BoldItalic.woff') format('woff');
   font-weight: bold;
   font-style: italic;
 }
 
 @font-face {
   font-family: 'Plantin_MT_Pro';
-  src: url('PlantinMTPro-LightItalic.woff2') format('woff2'),
-    url('PlantinMTPro-LightItalic.woff') format('woff');
+  src: url('/fonts/PlantinMTPro-LightItalic.woff2') format('woff2'),
+    url('/fonts/PlantinMTPro-LightItalic.woff') format('woff');
   font-weight: lighter;
   font-style: italic;
 }
 
 @font-face {
   font-family: 'Plantin_MT_Pro';
-  src: url('PlantinMTPro-Light.woff2') format('woff2'),
-    url('PlantinMTPro-Light.woff') format('woff');
+  src: url('/fonts/PlantinMTPro-Light.woff2') format('woff2'),
+    url('/fonts/PlantinMTPro-Light.woff') format('woff');
   font-weight: lighter;
   font-style: normal;
 }
@@ -126,6 +126,7 @@ h1 {
 p {
   font-family: 'Plantin_MT_Pro', serif;
   font-size: 18px;
+  font-weight:lighter
   line-height: 1.8;
   margin-left: auto;
   margin-right: auto;
@@ -152,6 +153,7 @@ p {
 .p3 {
   font-family: 'hk_grotesk', sans-serif;
   font-size: 18px;
+  font-weight: normal;
   line-height: 1.8;
   margin-left: auto;
   margin-right: auto;
@@ -164,6 +166,7 @@ p {
 .p4 {
   font-family: 'hk_grotesk', sans-serif;
   font-size: 13px;
+  font-weight: normal;
   line-height: 1.8;
   margin-left: auto;
   margin-right: auto;

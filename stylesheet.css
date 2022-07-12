@@ -70,6 +70,22 @@
   font-style: italic;
 }
 
+@font-face {
+  font-family: 'Plantin_MT_Pro';
+  src: url('PlantinMTPro-LightItalic.woff2') format('woff2'),
+    url('PlantinMTPro-LightItalic.woff') format('woff');
+  font-weight: lighter;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Plantin_MT_Pro';
+  src: url('PlantinMTPro-Light.woff2') format('woff2'),
+    url('PlantinMTPro-Light.woff') format('woff');
+  font-weight: lighter;
+  font-style: normal;
+}
+
 section {
   padding-top: 50px;
   padding-bottom: 120px;

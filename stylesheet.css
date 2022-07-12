@@ -1,132 +1,97 @@
 @font-face {
-    font-family: 'fraunces_144ptlight';
-    src: url('/fonts/fraunces144pt-light-webfont.woff2') format('woff2'),
-         url('/fonts/fraunces144pt-light-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-
-
-
-@font-face {
-    font-family: 'hk_grotesk';
-    src: url('/fonts/hkgrotesk-bold-webfont.woff2') format('woff2'),
-         url('/fonts/hkgrotesk-bold-webfont.woff') format('woff');
-    font-weight: bold;
-    font-style: normal;
-
-}
-
-
-
-
-@font-face {
-    font-family: 'hk_grotesk';
-    src: url('/fonts/hkgrotesk-bolditalic-webfont.woff2') format('woff2'),
-         url('/fonts/hkgrotesk-bolditalic-webfont.woff') format('woff');
-    font-weight: bold;
-    font-style: italic;
-
-}
-
-
-
-
-@font-face {
-    font-family: 'hk_grotesk';
-    src: url('/fonts/hkgrotesk-italic-webfont.woff2') format('woff2'),
-         url('/fonts/hkgrotesk-italic-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: italic;
-
-}
-
-
-
-
-@font-face {
-    font-family: 'hk_grotesk';
-    src: url('/fonts/hkgrotesk-regular-webfont.woff2') format('woff2'),
-         url('/fonts/hkgrotesk-regular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-
-
-@font-face {
-    font-family: 'Plantin_MT_Pro';
-    src: url('PlantinMTPro-LightItalic.woff2') format('woff2'),
-        url('PlantinMTPro-LightItalic.woff') format('woff');
-    font-weight: normal;
-    font-style: italic;
+  font-family: 'fraunces_144ptlight';
+  src: url('/fonts/fraunces144pt-light-webfont.woff2') format('woff2'),
+    url('/fonts/fraunces144pt-light-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: 'Plantin_MT_Pro';
-    src: url('PlantinMTPro-Light.woff2') format('woff2'),
-        url('PlantinMTPro-Light.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'hk_grotesk';
+  src: url('/fonts/hkgrotesk-bold-webfont.woff2') format('woff2'),
+    url('/fonts/hkgrotesk-bold-webfont.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: 'Plantin_MT_Pro';
-    src: url('PlantinMTPro-Bold.woff2') format('woff2'),
-        url('PlantinMTPro-Bold.woff') format('woff');
-    font-weight: bold;
-    font-style: normal;
+  font-family: 'hk_grotesk';
+  src: url('/fonts/hkgrotesk-bolditalic-webfont.woff2') format('woff2'),
+    url('/fonts/hkgrotesk-bolditalic-webfont.woff') format('woff');
+  font-weight: bold;
+  font-style: italic;
 }
 
 @font-face {
-    font-family: 'Plantin_MT_Pro';
-    src: url('PlantinMTPro-BoldItalic.woff2') format('woff2'),
-        url('PlantinMTPro-BoldItalic.woff') format('woff');
-    font-weight: bold;
-    font-style: italic;
+  font-family: 'hk_grotesk';
+  src: url('/fonts/hkgrotesk-italic-webfont.woff2') format('woff2'),
+    url('/fonts/hkgrotesk-italic-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: italic;
 }
 
+@font-face {
+  font-family: 'hk_grotesk';
+  src: url('/fonts/hkgrotesk-regular-webfont.woff2') format('woff2'),
+    url('/fonts/hkgrotesk-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
 
+@font-face {
+  font-family: 'Plantin_MT_Pro';
+  src: url('PlantinMTPro-LightItalic.woff2') format('woff2'),
+    url('PlantinMTPro-LightItalic.woff') format('woff');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Plantin_MT_Pro';
+  src: url('PlantinMTPro-Light.woff2') format('woff2'),
+    url('PlantinMTPro-Light.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Plantin_MT_Pro';
+  src: url('PlantinMTPro-Bold.woff2') format('woff2'),
+    url('PlantinMTPro-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Plantin_MT_Pro';
+  src: url('PlantinMTPro-BoldItalic.woff2') format('woff2'),
+    url('PlantinMTPro-BoldItalic.woff') format('woff');
+  font-weight: bold;
+  font-style: italic;
+}
 
 section {
-  padding-top:50px;
-  padding-bottom:120px;
-  margin-top:-10px;
-  margin-bottom:-100px;
-  margin-left:-10px;
-  margin-right:-10px;
-  background-color:#273d63;
+  padding-top: 50px;
+  padding-bottom: 120px;
+  margin-top: -10px;
+  margin-bottom: -100px;
+  margin-left: -10px;
+  margin-right: -10px;
+  background-color: #273d63;
 }
 
 div {
-  padding-top:20px;
-  padding-bottom:120px;
-  margin-top:-30px;
-  margin-bottom:-150px;
-  margin-left:-10px;
-  margin-right:-10px;
-  background-color:#273d63;
+  padding-top: 20px;
+  padding-bottom: 120px;
+  margin-top: -30px;
+  margin-bottom: -150px;
+  margin-left: -10px;
+  margin-right: -10px;
+  background-color: #273d63;
 }
-
-
 
 a {
-  color:#f0fff7;
-}
-
-p {
-  font-family: 'hk_grotesk', sans-serif;
-  font-size: 18px;
-  line-height: 1.8;
-  margin-left:auto;
-  margin-right:auto;
-  padding-left:8px;
-  padding-right:8px;
-  max-width:750px;
-  color:#f0fff7;
+  color: #f0fff7;
 }
 
 h1 {
@@ -134,14 +99,63 @@ h1 {
   font-weight: normal;
   font-style: normal;
   font-size: 60px;
-  margin-left:auto;
-  margin-right:auto;
-  padding-left:8px;
-  padding-right:8px;
-  max-width:750px;
-  color:#f0fff7;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 8px;
+  padding-right: 8px;
+  max-width: 750px;
+  color: #f0fff7;
 }
 
+p {
+  font-family: 'Plantin_MT_Pro', serif;
+  font-size: 18px;
+  line-height: 1.8;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 8px;
+  padding-right: 8px;
+  max-width: 750px;
+  color: #f0fff7;
+}
+
+.p2 {
+  font-family: 'hk_grotesk', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  line-height: 1.8;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0px;
+  padding-right: 8px;
+  max-width: 750px;
+  color: #f0fff7;
+}
+
+.p3 {
+  font-family: 'hk_grotesk', sans-serif;
+  font-size: 18px;
+  line-height: 1.8;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0px;
+  padding-right: 8px;
+  max-width: 750px;
+  color: #f0fff7;
+}
+
+.p4 {
+  font-family: 'hk_grotesk', sans-serif;
+  font-size: 13px;
+  line-height: 1.8;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0px;
+  padding-right: 8px;
+  max-width: 750px;
+  color: #CEDAE9;
+}
 
 /* Float not (positioned above) on screens that are equal to or less than 749px wide */
 @media (max-width: 749px) {

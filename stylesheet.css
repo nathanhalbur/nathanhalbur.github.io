@@ -40,16 +40,16 @@
 
 @font-face {
   font-family: 'Plantin_MT_Pro';
-  src: url('PlantinMTPro-LightItalic.woff2') format('woff2'),
-    url('PlantinMTPro-LightItalic.woff') format('woff');
+  src: url('PlantinMTPro-Italic.woff2') format('woff2'),
+    url('PlantinMTPro-Italic.woff') format('woff');
   font-weight: normal;
   font-style: italic;
 }
 
 @font-face {
   font-family: 'Plantin_MT_Pro';
-  src: url('PlantinMTPro-Light.woff2') format('woff2'),
-    url('PlantinMTPro-Light.woff') format('woff');
+  src: url('PlantinMTPro-Regular.woff2') format('woff2'),
+    url('PlantinMTPro-Regular.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
